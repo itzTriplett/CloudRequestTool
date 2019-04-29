@@ -1,0 +1,50 @@
+/*
+.relative {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+  position: relative;
+}
+*/
+.align {
+  float: left;
+  padding: 50px;
+}
+
+.lol {
+  text-align: left;
+}
+
+.left {
+  text-align: left;
+}
+.url {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 255px;
+  margin-right: 50px;
+}
+
+.respond {
+float: left;
+}
+
+.big {
+text-align: left;
+
+}
+input[type=text] {
+  width: 70%;
+}
+
+
+.http {
+  text-align: right;
+  margin-right: 20px;
+
+}
+
+.place{
+  float: left;
+  margin-left: 20px
+}
