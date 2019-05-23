@@ -1,3 +1,4 @@
+/*
 window.onload = function(){
 
   document.getElementById('submit').onclick = function(e){
@@ -11,22 +12,35 @@ window.onload = function(){
 
 
 };
+*/
 
-var theJoke;
-var joke;
+function getInputValue() {
+  var inputedValue = document.getElementById('textbar').value;
+  console.log(inputedValue);
+}
+
+var theUrl;
+//var theJoke;
+//var joke;
 
       $(document).ready(function(){
 
         $('#submit').click(function(){
-           theJoke = $('#subject').val();
+          theUrl = $('#textbox').val();
+
+
 
            $.ajax ({
               type: "GET",
               url: "icanhazdadjoke.com",
+              id: "M7wPC5wPKBd",
+              joke: "Did you hear the one about the guy with the broken hearing aid? Neither did he."
               success: function jokeCallback(jokeData){
-                  joke = jokeData.name;
-                $('.jokeResponse').append("The joke of the day is " + zip )
+                  console.log(response);
+                  $('.subject').val(response);
+                $('.jokeResponse').append("The joke of the day is " + joke )
             }
             });
 
       });
+ };
